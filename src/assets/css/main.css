@@ -1,0 +1,9 @@
+/* variables  */
+@import "variables/variables";
+
+/* header + navbar  */
+@import "components/header/header";
+
+/* footer */
+@import "components/footer/footer";
+

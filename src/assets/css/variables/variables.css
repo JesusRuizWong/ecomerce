@@ -1,0 +1,50 @@
+/* Estándar de temas */
+:root, 
+:root.light {
+    --base1: #f5f5f5 ;
+    --base2: #364967;
+    --base3: #ffffff;
+    --base4: #ffffff;
+    --base1-t: #f23558eb;
+    --base2-t: #f2b705e4    ;
+    --base3-t: #00183ec7   ;
+    --base4-t: #6C7D8C ;
+    --text:#364967;
+    --textcontraste: #ffffff ;
+    --text-color:rgb(0, 195, 255) ;
+    --sombra: #c9c9c9ce ;
+    --boton: #00ce29 ;
+
+  }
+   
+  :root.dark {
+    --base1: #04212f;
+    --base2: #000b1e;
+    --base3: #000b1e;
+    --base4: #000b1e;
+    --base1-t: #f23558eb;
+    --base2-t: #f2b705e4    ;
+    --base3-t: #000918c7   ;
+    --base4-t: #6C7D8C ;
+    --text:  #ffffff;
+    --textcontraste: #ffffff ;
+    --text-color:rgb(0, 255, 234) ;
+    --sombra: #00b3ff93 ;
+  }  
+  
+html{
+  box-sizing: border-box;  
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+#root {
+    position: absolute;
+    top: 0;
+    margin-top:0;
+    width: 100%;
+ 
+}
