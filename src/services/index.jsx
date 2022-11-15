@@ -12,3 +12,4 @@ export const getDataFromPokemon = async (url=BASE_URL)=>{
 } catch(error){ console.log(error.message)}
    
 }
+//
