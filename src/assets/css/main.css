@@ -2,8 +2,10 @@
 @import "variables/variables";
 
 /* header + navbar  */
-@import "components/header/header";
+@import "styles/header/header";
 
 /* footer */
-@import "components/footer/footer";
+@import "styles/footer/footer";
+
+
 

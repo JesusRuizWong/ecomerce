@@ -1,0 +1,35 @@
+/* Parametros del header */
+.navbar {
+  width: 100%;
+    position: fixed;
+    overflow: hidden;
+    padding: 20px 10px;
+    margin: 0;
+    z-index:100;
+    border-bottom: 1px solid var(--base1-t);
+    transition: all 0.5s;
+}
+
+
+#logo {
+  position: relative;
+}
+
+
+@media (max-width: 991.5px) { 
+  #logo{display: none;}
+
+}
+
+
+.animacionScroll{
+  background: rgba(255, 255, 255, 0.777);
+  padding: 10px 5px;
+  transition: all 0.5s;
+  border-radius: 0 0 1em 1em;
+  border-bottom: 0;
+
+}
+
+
+
