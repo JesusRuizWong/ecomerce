@@ -1,28 +1,29 @@
 import React from 'react'
-import Slider from './componentes/Slider'
+import Cardstarrank from '../starrank/Cardstarrank'
+import Slider from './Slider'
 
 export default function Banner() { 
 
 
- (function(){
-  var moviendo= false;
-  document.onmousemove = function(){
-         moviendo= true;
-  };
-  setInterval (function() {
-     if (!moviendo) {
-         // No ha habido movimiento desde hace un segundo, aquí tu codigo
+//  (function(){
+//   var moviendo= false;
+//   document.onmousemove = function(){
+//          moviendo= true;
+//   };
+//   setInterval (function() {
+//      if (!moviendo) {
+//          // No ha habido movimiento desde hace un segundo, aquí tu codigo
          
-     } else {
-         moviendo=false;  
-     }
-  }, 1500); // Cada segundo, pon el valor que quieras.
-})()
+//      } else {
+//          moviendo=false;  
+//      }
+//   }, 1500); // Cada segundo, pon el valor que quieras.
+// })()
 
 
-setInterval(function() {
-  document.getElementById("btn1").click()
-}, 6000)
+// setInterval(function() {
+//   document.getElementById("btn1").click()
+// }, 6000)
 
 
  
@@ -40,7 +41,7 @@ setInterval(function() {
       titulo="Primer Titulo"
       descripcion="descripcion 01"
 
-   /> 
+   />
 
 <Slider 
        imagen="2"

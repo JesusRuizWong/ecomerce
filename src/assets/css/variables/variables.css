@@ -1,10 +1,11 @@
 /* Estándar de temas */
 :root, 
 :root.light {
-    --base1: #f5f5f5 ;
-    --base2: #364967;
-    --base3: #ffffff;
-    --base4: #ffffff;
+    --color1: #F2055C ;
+    --color2: #9F2ABF;
+    --color3: #4DBF3B;
+    --color4: #F2541B;
+    --color5: #F2F2F2;    
     --base1-t: #ffffff88;
     --base2-t: #f2b705e4    ;
     --base3-t: #00183ec7   ;
