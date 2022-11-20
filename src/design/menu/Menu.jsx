@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaBookOpen, FaChevronCircleRight, FaChevronRight, FaHome, FaHotel } from 'react-icons/fa';
 import {NavLink} from 'react-router-dom' ;
 
 
@@ -12,19 +13,28 @@ export default function Menu() {
 
 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" >
-            <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <div class="modal-dialog"  >
+            <div class="modal-content"  >
+            <div class="modal-header border-bottom-0">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body d-flex"> 
+                <div id="menuList" className=" d-flex flex-column  m-4 rounded-4 py-5 px-2 text-center fixed-top" >
+                    <div className="h2" ><h2>Menu</h2></div> 
+                    <div className="m-2 my-4 d-flex flex-row" > <FaHome  className="w-25 fs-3"/> <h3 className="">Home</h3><FaChevronRight className="w-25 fs-3 end-0 position-absolute" /> </div>
+                    <div className="m-2 my-4  d-flex flex-row"> <FaBookOpen className="w-25 fs-3"/> <h3 className="">Circuitos</h3><FaChevronRight className="w-25 fs-3 end-0 position-absolute" /> </div>
+                    <div className="m-2 my-4  d-flex flex-row"><FaHotel  className="w-25 fs-3"/> <h3 className="">Hoteles</h3><FaChevronRight className="w-25 fs-3 end-0 position-absolute" /> </div>
+                    <div className="m-2 my-4  d-flex flex-row"><FaHotel  className="w-25 fs-3"/> <h3 className="">Hoteles</h3> <FaChevronRight className="w-25 fs-3 end-0 position-absolute" /></div>
+                    <div className="m-2 my-4  d-flex flex-row"><FaHotel  className="w-25 fs-3"/> <h3 className="">Hoteles</h3><FaChevronRight className="w-25 fs-3 end-0 position-absolute" /> </div>
+                    <div className="m-2 my-4  d-flex flex-row"><FaHotel  className="w-25 fs-3"/> <h3 className="">Hoteles</h3> <FaChevronRight className="w-25 fs-3 end-0 position-absolute" /></div>
+
+                </div>
+                <div>
+
+                </div>
            
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+
             </div>
         </div>
         </div>

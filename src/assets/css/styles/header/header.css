@@ -47,3 +47,31 @@
   60%{  transform: scale(1.2)}
   100%{transform: scale(1.0);} 
 }
+
+
+.modal{
+  padding: 0 !important;
+ }
+ .modal-dialog {
+   max-width: 100% !important;
+   height: 100%;
+   padding: 0;
+   margin: 0;
+  
+  
+ }
+ 
+ .modal-content {
+   border-radius: 0 !important;
+   height: 100%;
+ 
+   background-color: var(--color1-t) ;
+   border: 0px solid;
+   
+ }
+
+ #menuList {
+  height: 90%;
+  width: 40%;
+  background-color: var(--color5) !important ;
+}
