@@ -32,4 +32,18 @@
 }
 
 
+#bannerImg{
+  transition: all 2s;
+  transition: ease-in;
+  animation-name: bannerImgAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
 
+}
+
+
+@keyframes bannerImgAnimation {
+  10%{transform: scale(1.0)}
+  60%{  transform: scale(1.2)}
+  100%{transform: scale(1.0);} 
+}

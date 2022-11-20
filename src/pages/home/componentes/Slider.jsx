@@ -3,12 +3,12 @@ import React from 'react'
 export default function Slider({imagen,titulo,descripcion}) {
   return (
     <div>
-        <div className="carousel-item active">
+        <div className="carousel-item active" data-mdb-interval="2000">
             
-            <img  src={require(`src\assets\images\banner\slide-${imagen}.jpg`)} className="d-block w-100" alt="..."></img>
+            <img id="bannerImg" src={`src/assets/images/banner/slide-${imagen}.jpg`} className="d-block w-100" alt="slider"></img>
             <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>{titulo}</h5>
+                <p>{descripcion}</p>
             </div>
         </div>
 
