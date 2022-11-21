@@ -1,49 +1,11 @@
 .footer {
-    top:20rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 300px;
+ background-image: url("../../../images/footer.svg") ;
+ background-size: cover ;
+ transition: all 2000ms;
+
   }
-  
-  /* Taller footer on small screens */
-  @media (max-width: 567em) {
-      body {
-        margin-bottom: 700px;
-      }
-      .footer {
-        height: 700px;
-      }
+
+  #forma1{
+    background-color: red;
   }
-  
-  /* Sticky footer style and color
-  -------------------------------------------------- */
-  .footer {
-    display: flex;
-    padding-top: 30px;
-    background-color: #292c2f;
-    color: #bbb;
-  }
-  
-  .footer a {
-    color: #999;
-    text-decoration:none;
-  }
-  
-  .footer a:hover, footer a:focus {
-    color: #aaa;
-    text-decoration:none;
-    border-bottom:1px dotted #999;
-  }
-  
-  .footer .form-control {
-      background-color: #1f2022;
-      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-      border: none;
-      resize: none;
-      color: #d1d2d2;
-      padding: 0.7em 1em;
-      display: flex;
-  }
-  
+

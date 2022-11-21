@@ -128,6 +128,7 @@
 
 .profile-card-2 {
     max-width: 300px;
+    max-height: 450px;
     background-color: #FFF;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
     background-position: center;
@@ -140,6 +141,9 @@
 
 .profile-card-2 img {
     transition: all linear 0.25s;
+    animation-name: bannerImgAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
 }
 
 .profile-card-2 .profile-name {

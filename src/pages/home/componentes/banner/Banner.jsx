@@ -45,7 +45,7 @@ export default function Banner() {
 
 <Slider 
        imagen="2"
-       titulo="Primer 2cTitulo"
+       titulo="sEGUNDO  2cTitulo"
        descripcion="descripcion 01"
    
    /> 

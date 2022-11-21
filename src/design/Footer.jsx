@@ -2,57 +2,104 @@
 const Footer =()=>{
     return(
         <div>
-            <footer className="footer">
-    <div className="container">
-        <div className="row">
-            <div className="col-md-5">
-                <h5><i className="fa fa-road"></i> ACME CO INC.</h5>
-                <div className="row">
-                    <div className="footer-group">
-                        <ul className="list-unstyled">
-                            <li><a href="">Product</a></li>
-                            <li><a href="">Benefits</a></li>
-                            <li><a href="">Partners</a></li>
-                            <li><a href="">Team</a></li>
-                        </ul>
+            <footer className="footer text-center text-lg-start text-light ">
+            <section className="d-flex justify-content-center justify-content-lg-between p-4">
+                <div className="me-5 d-none d-lg-block">
+                <span>Sonrie y vive</span>
+                </div>
+
+                <div>
+                <a href="" className="me-4 link-secondary">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" className="me-4 link-secondary">
+                    <i className="fab fa-twitter"></i>
+                </a>
+                <a href="" className="me-4 link-secondary">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" className="me-4 link-secondary">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" className="me-4 link-secondary">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" className="me-4 link-secondary">
+                    <i class="fab fa-github"></i>
+                </a>
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                    </h6>
+                    <p>
+                        Here you can use rows and columns to organize your footer content. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit.
+                    </p>
                     </div>
-                    <div className="col-6">
-                        <ul className="list-unstyled">
-                            <li><a href="">Documentation</a></li>
-                            <li><a href="">Support</a></li>
-                            <li><a href="">Legal Terms</a></li>
-                            <li><a href="">About</a></li>
-                        </ul>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Products
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Angular</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">React</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Vue</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Laravel</a>
+                    </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Settings</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Orders</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Help</a>
+                    </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fas fa-envelope me-3 text-secondary"></i>
+                        info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
                     </div>
                 </div>
-                <ul className="nav">
-                    <li className="nav-item"><a href="" className="nav-link pl-0"><i className="fa fa-facebook fa-lg"></i></a></li>
-                    <li className="nav-item"><a href="" className="nav-link"><i className="fa fa-twitter"></i></a></li>
-                    <li className="nav-item"><a href="" className="nav-link"><i className="fa fa-github fa-lg"></i></a></li>
-                    <li className="nav-item"><a href="" className="nav-link"><i className="fa fa-instagram fa-lg"></i></a></li>
-                </ul>
-                <br></br>
+
+                </div>
+            </section>
+
+            <div class="text-center p-4 bg-dark " >
+                © 2021 Copyright: Hecho con 💕 Trujillo - Lima
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
             </div>
-            <div className="col-md-2">
-                <h5 className="text-md-right">Contact Us</h5>
-                <hr></hr>
-            </div>
-            <div className="col-md-5">
-                <form>
-                    <fieldset className="form-group">
-                        <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Enter email"/>
-                    </fieldset>
-                    <fieldset className="form-group">
-                        <textarea className="form-control" id="exampleMessage" placeholder="Message"></textarea>
-                    </fieldset>
-                    <fieldset className="form-group text-xs-right">
-                        <button type="button" className="btn btn-secondary-outline btn-lg">Send</button>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-    </div>
-</footer>
+
+            </footer>
 
         </div>
     )

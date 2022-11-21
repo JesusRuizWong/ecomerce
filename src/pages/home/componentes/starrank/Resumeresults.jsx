@@ -1,26 +1,13 @@
 import React from 'react'
-import { FaComment } from 'react-icons/fa'
+import Cardresult from './Cardresult'
 
 export default function Resumeresults() {
   return (
-       <div class="card">
-          <div class="card-content">
-            <div class="card-body">
-              <div class="media d-flex">
-                <div class="media-body text-left">
-                  <h3 class="warning">156</h3>
-                  <span>New Comments</span>
-                </div>
-                <div class="align-self-center">
-                  <FaComment class="text-primary fs-1"/>
-                </div>
-              </div>
-              <div class="progress mt-1 mb-0" >
-                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-           </div>
-         </div>
-     </div> 
-
+    <div className="d-flex flex-wrap  justify-content-center">
+      <Cardresult />
+      <Cardresult />
+      <Cardresult />
+      <Cardresult />
+    </div>
   )
 }
