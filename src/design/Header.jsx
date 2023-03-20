@@ -16,7 +16,7 @@ export default function Navbar() {
                     
             <div className="container-fluid">
                 <div className="d-flex"> 
-                <button type="button" className="btn mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" className="btn mx-2" data-bs-toggle="modal" data-bs-target="#menuModal">
                    <FaList />
                 </button>
                 <a className="navbar-brand" href="#"><img  id="logo" src="src\assets\images\icons\logo.png"></img></a>

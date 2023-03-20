@@ -1,32 +1,8 @@
 import React from 'react'
-import Cardstarrank from '../starrank/Cardstarrank'
 import Slider from './Slider'
 
 export default function Banner() { 
 
-
-//  (function(){
-//   var moviendo= false;
-//   document.onmousemove = function(){
-//          moviendo= true;
-//   };
-//   setInterval (function() {
-//      if (!moviendo) {
-//          // No ha habido movimiento desde hace un segundo, aquí tu codigo
-         
-//      } else {
-//          moviendo=false;  
-//      }
-//   }, 1500); // Cada segundo, pon el valor que quieras.
-// })()
-
-
-// setInterval(function() {
-//   document.getElementById("btn1").click()
-// }, 6000)
-
-
- 
   return (
     <div>
          <div id="carouselExampleIndicators1" className="carousel slide" data-ride="carousel">

@@ -52,7 +52,7 @@
 
 
 
-.modal{
+#menuModal{
   padding: 0 !important;
   animation-name: modalAnimation;
   animation-duration: 800ms;
@@ -63,7 +63,7 @@
  }
 
 
- .modal-dialog {
+ #modal-dialog {
    max-width: 100% !important;
    height: 100%;
    padding: 0;
@@ -85,7 +85,7 @@
     } 
 }
  
- .modal-content {
+ #modal-content {
    border-radius: 0 !important;
    height: 100%;
  
@@ -97,12 +97,57 @@
  #menuList  {
   height: 90%;
   width: 40%;
-  background-color: var(--color5) !important ;
+  background-color: var(--color6) !important ;
+  padding-block: 5rem;
+
 }
 
 #menuListDetail {
   margin-inline: 5%;
-
   height: 90%;
   width: 50%;
+}
+
+
+.item-menu{
+  background-color:rgba(181, 184, 185, 0.078)  ;
+  padding-block: 0.75rem;
+  border-radius: 1rem;
+  margin-inline: 2rem;
+  margin-block: 0.3rem;
+  transition: all 500ms;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-menu-detail{
+  background-color:var(--color6)  ;
+  padding-block: 2.0rem;
+  border-radius: 1rem;
+  margin-inline: 2rem;
+  margin-block: 0.75rem;
+  transition: all 500ms;
+  width: 40%;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-menu:hover{
+  scale: 1.15;
+}
+
+.item-menu:active{
+  background-color:var(--color6)   ;
+}
+
+.item-menu-detail:hover{
+  scale: 1.1;
+}
+
+.item-menu-detail:active{
+  background-color:var(--color6)  ;
 }

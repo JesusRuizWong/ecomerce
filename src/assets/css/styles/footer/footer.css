@@ -1,6 +1,7 @@
 .footer {
- background-image: url("../../../images/footer.svg") ;
- background-size: cover ;
+ /* background-image: url("../../../images/footer.svg") ;
+ background-size: cover ; */
+ background-color: black;
  transition: all 2000ms;
 
   }

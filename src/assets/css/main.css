@@ -16,6 +16,72 @@
 
 /* scr0II*/
 *::-webkit-scrollbar {
-    width: 0px;
+    width: 4px;
   }
   
+.color1 {
+  color: var(--color1);
+}
+
+.color2 {
+  color: var(--color2);
+}
+
+.color3 {
+  color: var(--color3);
+}
+
+.color4 {
+  color: var(--color4);
+}
+
+.color5 {
+  color: var(--color5);
+}
+
+
+.color1-t1 {
+  background-color: var(--color1-t1);
+  
+}
+
+.color2-t1 {
+  background-color: var(--color2-t1);
+}
+
+.color3-t1 {
+  background-color: var(--color3-t1);
+}
+
+.color4-t1 {
+  background-color: var(--color4-t1);
+}
+.color5-t1 {
+  background-color: var(--color5-t1);
+}
+
+
+.color1-t2 {
+  background-color: var(--color1-t2);
+  
+}
+
+.color2-t2 {
+  background-color: var(--color2-t2);
+}
+
+.color3-t2 {
+  background-color: var(--color3-t2);
+}
+
+.color4-t2 {
+  background-color: var(--color4-t2);
+}
+
+.color5-t2 {
+  background-color: var(--color5-t2);
+}
+
+.text-color1 {
+  color: var(--text-color1);
+}

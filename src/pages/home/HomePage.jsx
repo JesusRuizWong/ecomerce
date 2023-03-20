@@ -7,7 +7,7 @@ export default function HomePage() {
     <div >
       <Banner/>
       <Starrank />
-      <Topcircuits />
+      <Topcircuits id="Comentarios" />
     </div>
   )
 }

@@ -1,24 +1,32 @@
 import React from 'react'
-import { FaHome } from 'react-icons/fa'
+import { FaComment, FaHome, FaPersonBooth } from 'react-icons/fa';
+import {NavLink} from 'react-router-dom' ;
 
 export default function HomeItem() {
   return (
-    <div >
-        <h2 className="mx-2"> Home</h2> 
-         <div className="d-flex flex-wrap justify-content-center" > 
-                        <div class="card p-4 m-3 text-center shadow-none ">
-                            <blockquote class="blockquote mb-0">
-                              <FaHome className="fs-1 bg-primary rounded-circle p-1 "/>  
-                              <p>Reseñas</p>
-                            </blockquote>
-                        </div>
+    <div id="HomeItem" >
+        <h2 className="mx-2 text-light"> Home</h2> 
+         <div className="d-flex flex-wrap justify-content-center " > 
+                        <NavLink className="item-menu-detail bg-ligth" to="/Home">
+                           <div className="d-flex align-items-center  flex-column"> 
+                              <FaHome  className="fs-1 p-2 rounded-circle color1-t2 color1"/>
+                              <span className='text-color1 text-center'>Home</span>
+                           </div>
+                        </NavLink>
 
-                        <div class="card p-4 m-3 text-center shadow-none ">
-                            <blockquote class="blockquote mb-0">
-                              <FaHome className="fs-1 bg-primary rounded-circle p-1 "/>  
-                              <p>Reseñas</p>
-                            </blockquote>
-                        </div> 
+                        <NavLink className="item-menu-detail bg-ligth" to="/Home/#opiniones">
+                           <div className="d-flex align-items-center  flex-column"> 
+                              <FaComment  className="fs-1 p-2 rounded-circle color1-t2 color1"/>
+                              <span className='text-color1 text-center'>Opiniones</span>
+                           </div>
+                        </NavLink>
+
+                        <NavLink className="item-menu-detail bg-ligth" to="/Home">
+                           <div className="d-flex align-items-center  flex-column"> 
+                              <FaPersonBooth className="fs-1 p-2 rounded-circle color1-t2 color1"/>
+                              <span className='text-color1 text-center'>Nosotros</span>
+                           </div>
+                        </NavLink>
 
                 </div>         
     </div>
